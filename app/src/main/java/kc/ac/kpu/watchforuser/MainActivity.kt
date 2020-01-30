@@ -2,14 +2,14 @@ package kc.ac.kpu.watchforuser
 
 import android.app.Notification
 import android.app.NotificationManager
-import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Button
-import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+    import android.os.Bundle
+    import android.view.Menu
+    import android.view.MenuItem
+    import android.widget.Button
+    import androidx.appcompat.app.AppCompatActivity
 
+    class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean { // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_hand_held, menu)
